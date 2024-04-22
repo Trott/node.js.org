@@ -1,120 +1,42 @@
----
-permalink: /404.html
----
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <title>Redirecting to Node.js</title>
+  <style>
+    body {
+      background-color: #303030;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
 
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400">
+    .container {
+      margin-top: 20%;
+    }
 
-    <meta name="author" content="Node.js Foundation">
-    <meta name="robots" content="noindex, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    a {
+      color: #66cc33;
+      text-decoration: none;
+    }
 
-    <title>Node.js</title>
-    <meta name="description" content="Visit nodejs.org - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.">
-    <link rel="icon" sizes="32x32" type="image/png" href="assets/favicon.png">
-    <link rel="shortcut-icon" sizes="32x32" type="image/png" href="assets/favicon.png">
-    <meta name="theme-color" content="#43853D">
-
-    <meta property="og:site_name" content="Node.js">
-    <meta property="og:title" content="Node.js">
-    <meta property="og:image" content="assets/card.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:description" content="Visit nodejs.org - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@nodejs">
-    <meta name="twitter:title" content="Node.js">
-    <meta name="twitter:image" content="assets/card.png">
-    <meta name="twitter:description" content="Visit nodejs.org - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.">
-
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-
-        body {
-            background-color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font: 400 20px/1.5 'Source Sans Pro', Open Sans, Roboto, 'San Francisco', Helvetica, Arial, sans-serif;
-        }
-
-        img {
-            width: 600px;
-            max-width: 100%;
-            display: block;
-            margin: auto auto 3rem auto;
-        }
-
-        span {
-            color: #ccc;
-            display: block;
-            text-align: center;
-        }
-
-        a, a:link, a:active {
-            color: #43853d;
-            text-decoration: none;
-            border-radius: 2px;
-            padding-left: 2px;
-            padding-right: 2px;
-            margin-left: -2px;
-            margin-right: -2px;
-        }
-
-        a:hover {
-            color: #fff;
-            background-color: #43853d;
-        }
-
-        a.button {
-            display: inline-block;
-            text-align: center;
-            margin: 3rem 4px 10px 4px;
-            padding: .2em .6em;
-            background-color: #026e00;
-            color: #fff !important;
-            border-radius: 2px;
-            font-size: 30px;
-            font-weight: 400;
-            -webkit-transition: .2s background-color ease-in-out;
-            transition: .2s background-color ease-in-out;
-        }
-
-        a.button:hover {
-            background-color: #43853d;
-        }
-
-        a.button small {
-            display: block;
-            font-size: 1rem;
-        }
-
-        a.none {
-            margin: 0;
-            padding: 0;
-            background: transparent;
-        }
-    </style>
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <script>
+    window.onload = () => window.location.href = 'https://nodejs.org/';
+  </script>
 </head>
+
 <body>
-<main>
-    <a href="https://nodejs.org/" class="none">
-        <img src="assets/logo.svg" alt="Node.js logo"/>
-    </a>
-    <span>Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.</span>
-    <span>For more information, go to <a href="https://nodejs.org/">https://nodejs.org/</a>.</span>
-    <span><a href="https://nodejs.org/" class="button">
-        Visit Node.js
-        <small>https://nodejs.org/</small>
-    </a></span>
-</main>
+  <div class="container">
+    <p>Redirecting you to <a href="https://nodejs.org/">nodejs.org</a>. If you are not redirected, <a
+        href="https://nodejs.org/">click here</a>.</p>
+  </div>
 </body>
+
 </html>
